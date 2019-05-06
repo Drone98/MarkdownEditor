@@ -47,28 +47,26 @@
 </script>
 
 <style scoped>
-    textarea, textarea + div {
+    textarea + div {
         display: inline-block;
-        width: 49%;
+        width: 500px;
         height: 100%;
         vertical-align: top;
         box-sizing: border-box;
-        padding: 0 20px;
+        padding: 0 10px;
     }
 
     textarea {
-        border: none;
-        border-right: 1px solid #ccc;
+        display: inline-block;
+        width: 500px;
+        height: 100%;
+        vertical-align: top;
+        box-sizing: border-box;
         resize: none;
-        outline: none;
         background-color: #f6f6f6;
         font-size: 14px;
         font-family: 'Monaco', courier, monospace;
         padding: 20px;
-    }
-
-    code {
-        color: #f66;
     }
     button {
         display: block;

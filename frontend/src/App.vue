@@ -72,25 +72,16 @@
 
 <style>
     html, body, #app {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         margin: 0;
         height: 100%;
         font-family: 'Helvetica Neue', Arial, sans-serif;
         color: #333;
     }
-    h3 {
-        margin: 40px 0 0;
-    }
 
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
-
-    li {
-        margin: 0 10px;
-    }
-
-    a {
-        color: #42b983;
+    button {
+        display: block;
     }
 </style>
